@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 16 - Neon Media Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Media<span class="neon-text">Gallery</span></h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#videos" class="nav-link">Videos</a>
+                <a href="#audio" class="nav-link">Audio</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="glass-header" id="home">
+            <h1 class="neo-title">Day 16: Neon Media Gallery</h1>
+            <p class="subtitle">Portrait Videos & Audio with Neon Effects</p>
+        </header>
+
+        <section class="video-section" id="videos">
+            <h2 class="section-title">📹 Portrait Videos</h2>
+            <div class="media-grid">
+                <div class="media-card glass neon-hover">
+                    <div class="media-wrapper portrait">
+                        <video controls preload="metadata" playsinline webkit-playsinline x-webkit-airplay="allow">
+                            <source src="Assets/3062955-hd_1080_1920_24fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="neon-overlay"></div>
+                    </div>
+                    <div class="media-info">
+                        <h3>Portrait Cinema</h3>
+                        <p>Vertical HD cinematic experience</p>
+                        <div class="play-stats">
+                            <span class="duration">2:45</span>
+                            <span class="quality">HD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-card glass neon-hover">
+                    <div class="media-wrapper portrait">
+                        <video controls preload="metadata" playsinline webkit-playsinline x-webkit-airplay="allow">
+                            <source src="Assets/3833491-hd_1080_1920_30fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="neon-overlay"></div>
+                    </div>
+                    <div class="media-info">
+                        <h3>Urban Life</h3>
+                        <p>Modern city scenes and lifestyle</p>
+                        <div class="play-stats">
+                            <span class="duration">3:20</span>
+                            <span class="quality">FHD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-card glass neon-hover">
+                    <div class="media-wrapper portrait">
+                        <video controls preload="metadata" playsinline webkit-playsinline x-webkit-airplay="allow">
+                            <source src="Assets/7539472-uhd_2160_3840_24fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="neon-overlay"></div>
+                    </div>
+                    <div class="media-info">
+                        <h3>Ultra HD Experience</h3>
+                        <p>4K quality cinematic footage</p>
+                        <div class="play-stats">
+                            <span class="duration">4:15</span>
+                            <span class="quality">4K</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-card glass neon-hover">
+                    <div class="media-wrapper portrait">
+                        <video controls preload="metadata" playsinline webkit-playsinline x-webkit-airplay="allow">
+                            <source src="Assets/5690133-hd_1080_1920_30fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="neon-overlay"></div>
+                    </div>
+                    <div class="media-info">
+                        <h3>Creative Content</h3>
+                        <p>Artistic vertical video content</p>
+                        <div class="play-stats">
+                            <span class="duration">3:45</span>
+                            <span class="quality">FHD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-card glass neon-hover">
+                    <div class="media-wrapper portrait">
+                        <video controls preload="metadata" playsinline webkit-playsinline x-webkit-airplay="allow">
+                            <source src="Assets/13792542_2160_3840_60fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="neon-overlay"></div>
+                    </div>
+                    <div class="media-info">
+                        <h3>High Frame Rate</h3>
+                        <p>Smooth 4K at 60fps</p>
+                        <div class="play-stats">
+                            <span class="duration">2:30</span>
+                            <span class="quality">4K60</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="audio-section" id="audio">
+            <h2 class="section-title">🎵 Audio Collection</h2>
+            <div class="audio-grid">
+                <div class="audio-card glass-audio neon-hover">
+                    <div class="audio-icon">🎼</div>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="Assets/dawnofchange.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="audio-info">
+                        <h4>Dawn of Change</h4>
+                        <span class="genre">Ambient</span>
+                        <span class="duration">3:42</span>
+                    </div>
+                </div>
+
+                <div class="audio-card glass-audio neon-hover">
+                    <div class="audio-icon">😢</div>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="Assets/echoofsadness.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="audio-info">
+                        <h4>Echo of Sadness</h4>
+                        <span class="genre">Emotional</span>
+                        <span class="duration">4:18</span>
+                    </div>
+                </div>
+
+                <div class="audio-card glass-audio neon-hover">
+                    <div class="audio-icon">🚀</div>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="Assets/no-copyright-music-motivational-uplifting-334841.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="audio-info">
+                        <h4>Motivational Uplifting</h4>
+                        <span class="genre">Inspirational</span>
+                        <span class="duration">3:28</span>
+                    </div>
+                </div>
+
+                <div class="audio-card glass-audio neon-hover">
+                    <div class="audio-icon">🌅</div>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="Assets/slowlife.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="audio-info">
+                        <h4>Slow Life</h4>
+                        <span class="genre">Relaxing</span>
+                        <span class="duration">5:12</span>
+                    </div>
+                </div>
+
+                <div class="audio-card glass-audio neon-hover">
+                    <div class="audio-icon">🎸</div>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="Assets/no-copyright-music-331167.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <div class="audio-info">
+                        <h4>Acoustic Vibes</h4>
+                        <span class="genre">Folk</span>
+                        <span class="duration">3:45</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <h2 class="section-title">👨‍💻 About Creator</h2>
+            <div class="about-container">
+                <div class="about-card glass neon-hover">
+                    <div class="creator-avatar">
+                        <div class="avatar-placeholder">AR</div>
+                        <div class="neon-ring"></div>
+                    </div>
+                    <div class="creator-info">
+                        <h3 class="creator-name">Abdur Rahman</h3>
+                        <p class="creator-title">Full Stack Developer & UI/UX Designer</p>
+                        <div class="creator-description">
+                            <p>Passionate web developer specializing in modern frontend technologies and beautiful user interfaces. Creator of stunning visual experiences with a focus on glassmorphism and neon aesthetics.</p>
+                            <div class="skills">
+                                <span class="skill">HTML5</span>
+                                <span class="skill">CSS3</span>
+                                <span class="skill">JavaScript</span>
+                                <span class="skill">React</span>
+                                <span class="skill">Node.js</span>
+                                <span class="skill">UI/UX</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <span class="social-icon">📧</span>
+                                <span>Email</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span class="social-icon">💼</span>
+                                <span>Portfolio</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span class="social-icon">🐙</span>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Enhanced video loading and quality optimization
+        const videos = document.querySelectorAll('video');
+        
+        videos.forEach(video => {
+            // Set video quality attributes for better rendering
+            video.setAttribute('webkit-playsinline', '');
+            video.setAttribute('playsinline', '');
+            
+            // Handle video loading states - no effects
+            video.addEventListener('loadstart', () => {
+                // No visual effects during loading
+            });
+            
+            video.addEventListener('canplaythrough', () => {
+                // Video is ready
+            });
+            
+            // Optimize video playback
+            video.addEventListener('loadedmetadata', () => {
+                // No special effects
+            });
+            
+            // Simple play/pause without effects
+            video.addEventListener('play', () => {
+                // No special effects
+            });
+            
+            video.addEventListener('pause', () => {
+                // No special effects
+            });
+        });
+
+        // Audio player enhancements
+        const audioElements = document.querySelectorAll('audio');
+        audioElements.forEach(audio => {
+            audio.addEventListener('play', () => {
+                audio.parentElement.parentElement.style.transform = 'scale(1.02)';
+                audio.parentElement.parentElement.style.boxShadow = '0 0 25px rgba(255, 23, 68, 0.4)';
+            });
+            
+            audio.addEventListener('pause', () => {
+                audio.parentElement.parentElement.style.transform = 'scale(1)';
+                audio.parentElement.parentElement.style.boxShadow = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

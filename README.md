@@ -2,7 +2,15 @@
 
 > **A comprehensive web development course ## 📋 Recent Updates & Highlights
 
-### 🆕 **Latest Addition - Day 10: Media Elements**
+### 🆕 **Latest Addition - Day 16: Neon Media Gallery**
+- **Modern Media Gallery** with black and red neon theme design
+- **Portrait Video Player** with glassmorphism and neo effects
+- **Audio Collection** with custom neon-styled controls
+- **Responsive Navigation** with hamburger menu for mobile
+- **Neon Hover Effects** and smooth animations throughout
+- **Fully Responsive Design** optimized for all device sizes
+
+### 🎬 **Day 10: Media Elements**  
 - **HTML5 Video Player** with custom YouTube-like styling
 - **Audio Player** with modern controls and responsive design  
 - **iframe Integration** for embedding external content (YouTube, websites)
@@ -18,11 +26,14 @@
 - **🎬 Day 10**: Complete media integration (video, audio, iframes)
 - **🏗️ Day 11**: HTML5 semantic elements with visual reference guide
 - **📱 Day 12-13**: Responsive design and advanced CSS techniques
+- **🎮 Day 14-15**: Interactive elements and advanced JavaScript
+- **🌟 Day 16**: Neon Media Gallery with glassmorphism and portrait videos
 
 ### 💼 **Notable Projects**
 1. **Bookmark Manager** (Day 04) - Organized link collection with categories
 2. **Media Player Interface** (Day 10) - YouTube-style video and audio controls
-3. **Semantic HTML Guide** (Day 11) - Educational reference with visual diagramCSS, JavaScript, React, Node.js, and more!**
+3. **Semantic HTML Guide** (Day 11) - Educational reference with visual diagram
+4. **Neon Media Gallery** (Day 16) - Modern gallery with glassmorphism and neon effectsCSS, JavaScript, React, Node.js, and more!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/ARahmanAR/Sigma-Web-Development-Course?style=social)](https## 🔗 Important Links & Resources
 
