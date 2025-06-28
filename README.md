@@ -1,10 +1,33 @@
 # Sigma Web Development Course - Complete Web Development Journey! 🚀
 
-Welcome to the **Sigma Web Development Course**! This repository contains all the course materials, projects, and exercises for a comprehensive web development journey. Follow along with this complete course to master web development from basics to advanced concepts.
+> **A comprehensive web development course covering HTML, CSS, JavaScript, React, Node.js, and more!**
 
-## 📚 Course Overview
+[![GitHub Stars](https://img.shields.io/github/stars/ARahmanAR/Sigma-Web-Development-Course?style=social)](https## 🔗 Important Links & Resources
+
+- **💾 Course Repository:** [ARahmanAR/Sigma-Web-Development-Course](https://github.com/ARahmanAR/Sigma-Web-Development-Course)
+- **👨‍💻 Course Author:** [Abdur Rahman](https://github.com/ARahmanAR)
+- **📚 Original Course Reference:** [CodeWithHarry/Sigma-Web-Dev-Course](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course)
+- **🎬 YouTube Playlist:** [Sigma Web Development Course](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w)
+- **📖 MDN Web Docs:** [Developer Resources](https://developer.mozilla.org/en-US/)
+- **🎨 CSS Reference:** [CSS-Tricks](https://css-tricks.com/)hub.com/ARahmanAR/Sigma-Web-Development-Course)
+[![GitHub Forks](https://img.shields.io/github/forks/ARahmanAR/Sigma-Web-Development-Course?style=social)](https://github.com/ARahmanAR/Sigma-Web-Development-Course)
+[![GitHub Issues](https://img.shields.io/github/issues/ARahmanAR/Sigma-Web-Development-Course)](https://github.com/ARahmanAR/Sigma-Web-Development-Course/issues)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-brightgreen)](https://github.com/ARahmanAR/Sigma-Web-Development-Course)
+
+Welcome to the **Sigma Web Development Course** - your complete journey from beginner to full-stack web developer! This repository contains **137+ days** of structured learning, covering everything from basic HTML to advanced React and Next.js concepts.
+
+## � About This Course
 
 If you've been looking to dive into the world of web development, you're in the right place! This course is crafted to guide you from being an absolute beginner to a seasoned web developer, one step at a time. Learn modern web development with hands-on projects and real-world applications.
+
+### 🎯 What You'll Learn
+
+- **Frontend Development**: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js
+- **Backend Development**: Node.js, Express.js, RESTful APIs
+- **Database Management**: MongoDB, Mongoose ODM
+- **Modern Tools**: Git, npm, package management, VS Code
+- **Media Integration**: Video, Audio, iframes, and responsive media
+- **Real Projects**: Spotify Clone, Portfolio websites, and more!
 
 ## 🎯 What You'll Master
 
@@ -19,28 +42,60 @@ During this course, you'll delve into:
 7. **Building full-stack applications**
 8. **And a whole lot more!**
 
-## 👥 Who Can Benefit?
+## 👥 Who Should Take This Course?
 
-This course is a perfect fit for:
+This course is perfect for:
 
-1. **Beginners** eager to start their web development journey
-2. **Intermediate developers** looking to refine their skills  
-3. **Anyone wanting to become a full-stack developer**
-4. **Students looking for structured learning path**
+1. **Complete Beginners** - No prior coding experience required
+2. **Career Changers** - Looking to transition into tech
+3. **Students** - Supplementing computer science education
+4. **Developers** - Want to learn modern web development stack
+5. **Entrepreneurs** - Need to build web applications for their business
 
-## 📂 Course Structure
+## 📂 Course Progress & Structure
 
+### 🟢 **Completed Days (1-13)**
 ```
-Sigma Web Development Course/
-├── Day 01-10/           # HTML Fundamentals & Web Basics
-├── Day 11-30/           # CSS Styling & Layouts
-├── Day 31-53/           # Advanced CSS & Responsive Design
-├── Day 54-85/           # JavaScript Fundamentals & Projects
-├── Day 86-103/          # Backend Development with Node.js
-├── Day 104-120/         # React.js Framework
-├── Day 121-137/         # Next.js & Full-Stack Development
-└── Projects/            # Major Projects (Spotify Clone, etc.)
+Sigma-Web-Development-Course/
+├── Day 01/                 # ✅ HTML Basics - Introduction to Web Development
+├── Day 02/                 # ✅ HTML Structure and Basic Tags  
+├── Day 03/                 # ✅ HTML Forms and Input Elements
+├── Day 04/                 # ✅ HTML Tables and Lists
+├── Day 05/                 # ✅ CSS Introduction and Basic Styling
+├── Day 06/                 # ✅ CSS Selectors and Properties
+├── Day 07/                 # ✅ CSS Box Model and Layout
+├── Day 08/                 # ✅ CSS Flexbox Fundamentals
+├── Day 09/                 # ✅ CSS Grid System
+├── Day 10/                 # ✅ HTML Media Elements (Video, Audio, iframes)
+├── Day 11/                 # ✅ CSS Animations and Transitions
+├── Day 12/                 # ✅ CSS Responsive Design
+├── Day 13/                 # ✅ Advanced CSS Techniques
+└── ...                     # 🔄 More days in progress
 ```
+
+### 🔮 **Upcoming Content (Days 14-137+)**
+- **Days 14-30**: Advanced CSS & Responsive Design
+- **Days 31-53**: JavaScript Fundamentals & DOM Manipulation
+- **Days 54-85**: Advanced JavaScript & Major Projects
+- **Days 86-103**: Backend Development with Node.js
+- **Days 104-120**: React.js Framework
+- **Days 121-137**: Next.js & Full-Stack Development
+
+## � Recent Updates & Highlights
+
+### 🆕 **Latest Addition - Day 10: Media Elements**
+- **HTML5 Video Player** with custom YouTube-like styling
+- **Audio Player** with modern controls and responsive design  
+- **iframe Integration** for embedding external content
+- **Media Optimization** for different screen sizes
+- **Cross-browser Compatibility** for video/audio formats
+
+### 🔥 **Key Features Learned So Far**
+- **Semantic HTML5** structure and accessibility
+- **Modern CSS** with Flexbox and Grid layouts
+- **Responsive Design** principles and media queries
+- **Media Integration** with video, audio, and embedded content
+- **Custom Styling** for native browser controls
 
 ## 🚀 Getting Started
 
@@ -56,7 +111,7 @@ Sigma Web Development Course/
 1. **Clone or download this repository:**
    ```bash
    git clone https://github.com/ARahmanAR/Sigma-Web-Development-Course.git
-   cd "Sigma Web Development Course"
+   cd Sigma-Web-Development-Course
    ```
 
 2. **Open in your preferred code editor:**
@@ -66,6 +121,9 @@ Sigma Web Development Course/
 
 3. **Start with Day 01:**
    Navigate to the `Day 01` folder and follow along with the course materials
+
+4. **Follow Sequential Learning:**
+   Complete each day in order for the best learning experience
 
 ## 📺 YouTube Playlist
 
@@ -150,6 +208,15 @@ Sigma Web Development Course/
 - ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 - ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+
+## 📊 Course Statistics & Progress
+
+- **📅 Days Completed:** 13/137+ (Growing daily!)
+- **⏱️ Estimated Time:** 3-6 months for complete course
+- **📚 Current Phase:** Foundation (HTML & CSS)
+- **🎯 Skill Level:** Beginner to Advanced
+- **💻 Format:** Hands-on coding with projects
+- **🌟 Active Development:** Updated regularly with new content
 
 ## 🎯 Major Projects
 
@@ -286,6 +353,21 @@ Upon completion of this course, you will be able to:
 
 **📚 [Explore the Course Repository](https://github.com/ARahmanAR/Sigma-Web-Development-Course)**
 
-**Happy Coding! 🚀**
+### 🎯 Next Steps:
+1. ⭐ **Star this repository** if you find it helpful
+2. 🍴 **Fork the repo** to create your own copy
+3. 📝 **Start with Day 01** and work through each lesson
+4. � **Join discussions** and ask questions
+5. �🚀 **Build amazing projects** and share your progress!
 
-*Course Repository by: Abdur Rahman | Based on CodeWithHarry's Sigma Course | Last Updated: June 26, 2025*
+---
+
+## 📄 License & Attribution
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Course Repository by:** [Abdur Rahman](https://github.com/ARahmanAR)  
+**Based on:** CodeWithHarry's Sigma Web Development Course  
+**Last Updated:** June 28, 2025
+
+**Happy Coding! 🚀✨**
