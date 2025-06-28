@@ -1,6 +1,28 @@
 # Sigma Web Development Course - Complete Web Development Journey! 🚀
 
-> **A comprehensive web development course covering HTML, CSS, JavaScript, React, Node.js, and more!**
+> **A comprehensive web development course ## 📋 Recent Updates & Highlights
+
+### 🆕 **Latest Addition - Day 10: Media Elements**
+- **HTML5 Video Player** with custom YouTube-like styling
+- **Audio Player** with modern controls and responsive design  
+- **iframe Integration** for embedding external content (YouTube, websites)
+- **Media Assets** including HD video, poster image, and audio files
+- **Custom CSS Controls** styled to look like modern media players
+
+### 🔥 **Key Features & Projects Completed**
+- **📚 Day 01-03**: HTML fundamentals and CSS/JS integration
+- **🔖 Day 04**: Bookmark Manager - Practical link organization tool
+- **🎨 Day 05**: CSS styling with image assets and visual design
+- **📝 Day 06-07**: Forms, tables, and structured data presentation
+- **📐 Day 08-09**: CSS layouts with Flexbox and Grid systems
+- **🎬 Day 10**: Complete media integration (video, audio, iframes)
+- **🏗️ Day 11**: HTML5 semantic elements with visual reference guide
+- **📱 Day 12-13**: Responsive design and advanced CSS techniques
+
+### 💼 **Notable Projects**
+1. **Bookmark Manager** (Day 04) - Organized link collection with categories
+2. **Media Player Interface** (Day 10) - YouTube-style video and audio controls
+3. **Semantic HTML Guide** (Day 11) - Educational reference with visual diagramCSS, JavaScript, React, Node.js, and more!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/ARahmanAR/Sigma-Web-Development-Course?style=social)](https## 🔗 Important Links & Resources
 
@@ -58,18 +80,51 @@ This course is perfect for:
 ```
 Sigma-Web-Development-Course/
 ├── Day 01/                 # ✅ HTML Basics - Introduction to Web Development
-├── Day 02/                 # ✅ HTML Structure and Basic Tags  
-├── Day 03/                 # ✅ HTML Forms and Input Elements
-├── Day 04/                 # ✅ HTML Tables and Lists
-├── Day 05/                 # ✅ CSS Introduction and Basic Styling
-├── Day 06/                 # ✅ CSS Selectors and Properties
-├── Day 07/                 # ✅ CSS Box Model and Layout
-├── Day 08/                 # ✅ CSS Flexbox Fundamentals
-├── Day 09/                 # ✅ CSS Grid System
+│   └── index.html
+├── Day 02/                 # ✅ HTML Structure and CSS/JS Integration
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── Day 03/                 # ✅ Advanced HTML with Styling and Scripts
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── Day 04/                 # ✅ HTML Links and Bookmark Manager Project
+│   ├── index.html
+│   ├── BookmarkManager.html    # 🔖 Practical bookmark manager
+│   ├── script.js
+│   └── style.css
+├── Day 05/                 # ✅ CSS Styling with Images and Assets
+│   ├── index.html
+│   ├── style.css
+│   └── Assets/
+│       ├── 0dc89480-311c-4250-9308-9b8ad9b9b042.png
+│       ├── aa450c82-1624-41d9-a233-430eb41f946e.png
+│       └── e3df4454-567c-4651-82f3-3f46e32ef62d.png
+├── Day 06/                 # ✅ HTML Forms and Input Elements
+│   └── index.html
+├── Day 07/                 # ✅ HTML Tables and Lists
+│   └── index.html
+├── Day 08/                 # ✅ CSS Box Model and Layout
+│   ├── index.html
+│   └── style.css
+├── Day 09/                 # ✅ CSS Flexbox and Grid Fundamentals
+│   ├── index.html
+│   └── style.css
 ├── Day 10/                 # ✅ HTML Media Elements (Video, Audio, iframes)
-├── Day 11/                 # ✅ CSS Animations and Transitions
+│   ├── index.html
+│   ├── style.css           # 🎨 YouTube-like media controls
+│   └── Assets/
+│       ├── 4713259-hd_1920_1080_30fps.mp4
+│       ├── bridge-9599215_1280.jpg
+│       └── embrace-364091.mp3
+├── Day 11/                 # ✅ HTML5 Semantic Tags
+│   ├── index.html
+│   └── semantic-tags.png   # 📊 Visual reference guide
 ├── Day 12/                 # ✅ CSS Responsive Design
+│   └── index.html
 ├── Day 13/                 # ✅ Advanced CSS Techniques
+│   └── index.html
 └── ...                     # 🔄 More days in progress
 ```
 
@@ -212,28 +267,46 @@ Sigma-Web-Development-Course/
 ## 📊 Course Statistics & Progress
 
 - **📅 Days Completed:** 13/137+ (Growing daily!)
+- **📁 Total Files:** 25+ files across 13 days
+- **🎯 Projects Created:** 3 practical applications
+- **📱 Assets Included:** 6 multimedia files (images, video, audio)
 - **⏱️ Estimated Time:** 3-6 months for complete course
-- **📚 Current Phase:** Foundation (HTML & CSS)
+- **📚 Current Phase:** Foundation (HTML & CSS Mastery)
 - **🎯 Skill Level:** Beginner to Advanced
-- **💻 Format:** Hands-on coding with projects
+- **💻 Format:** Hands-on coding with real projects
 - **🌟 Active Development:** Updated regularly with new content
 
-## 🎯 Major Projects
+### 📈 **File Distribution:**
+- **HTML Files:** 15+ (Core structure and content)
+- **CSS Files:** 7+ (Styling and layouts) 
+- **JavaScript Files:** 3+ (Interactive functionality)
+- **Assets:** 6+ (Images, video, audio files)
+- **Projects:** 3+ (Bookmark Manager, Media Player, etc.)
 
-### 1. Spotify Clone (Day 84)
+## 🎯 Featured Projects & Applications
+
+### 1. 📑 **Bookmark Manager (Day 04)**
 - **Technologies:** HTML, CSS, JavaScript
-- **Features:** Music player interface, playlist management, responsive design
-- **Skills Learned:** DOM manipulation, audio APIs, complex layouts
+- **Features:** Organized bookmark categories, external link handling
+- **Files:** `BookmarkManager.html`, `index.html`, `style.css`, `script.js`
+- **Skills Learned:** Link management, HTML structure, user interface design
 
-### 2. Task Manager (iTask)
-- **Technologies:** React, Vite
-- **Features:** Todo list with CRUD operations, state management
-- **Skills Learned:** React hooks, component architecture
+### 2. 🎬 **Media Player Interface (Day 10)**
+- **Technologies:** HTML5, CSS3, Media APIs
+- **Features:** Video player with poster, audio controls, iframe embedding
+- **Files:** `index.html`, `style.css`, video/audio assets
+- **Skills Learned:** Media integration, custom control styling, responsive design
 
-### 3. Full-Stack Applications
-- **Technologies:** Next.js, MongoDB, Express
-- **Features:** Authentication, database integration, API routes
-- **Skills Learned:** Full-stack development, deployment
+### 3. 🏗️ **Semantic HTML Guide (Day 11)**
+- **Technologies:** HTML5 Semantic Elements
+- **Features:** Educational reference with visual diagram
+- **Files:** `index.html`, `semantic-tags.png`
+- **Skills Learned:** Semantic markup, accessibility, document structure
+
+### 4. 🎨 **CSS Layout Showcase (Days 8-9)**
+- **Technologies:** CSS Flexbox, Grid, Responsive Design
+- **Features:** Modern layout techniques and responsive components
+- **Skills Learned:** Advanced CSS layouts, mobile-first design
 
 ## 📋 Learning Path & Schedule
 
@@ -291,10 +364,17 @@ The course is designed to be followed sequentially, with new content added regul
 
 ### Daily Structure:
 Each day folder contains:
-- Source code files (HTML, CSS, JS, etc.)
-- Project files and assets
-- README files with instructions (where applicable)
-- Complete working examples
+- **HTML files** - Core structure and content
+- **CSS files** - Styling and visual design (where applicable)
+- **JavaScript files** - Interactive functionality (where applicable)
+- **Assets folder** - Images, videos, audio files (Day 5 & 10)
+- **Project files** - Specialized applications (BookmarkManager, etc.)
+- **Reference materials** - Visual guides and documentation
+
+### 📁 **Asset Management:**
+- **Day 05 Assets:** 3 PNG images for CSS styling examples
+- **Day 10 Assets:** HD video (MP4), poster image (JPG), audio file (MP3)
+- **Day 11 Assets:** Semantic tags reference diagram (PNG)
 
 ## 🔗 Important Links
 
