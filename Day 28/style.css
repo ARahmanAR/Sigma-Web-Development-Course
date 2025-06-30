@@ -1,0 +1,14 @@
+/*! Important: This is a test comment with red background in external CSS */
+/*? Question: Does this show blue background in external CSS? */
+/*TODO: This should have orange background in external CSS */
+/*// This comment should be strikethrough with gray background in external CSS */
+/** This should have green background in external CSS */
+
+/* Regular comment for comparison */
+
+.test-class {
+    /*! This is an important inline comment */
+    color: red;
+    /*? Is this working now? */
+    background: blue;
+}
