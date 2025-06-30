@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selctor</title>
+    <style>
+        /* element selector */
+        div {
+            padding: 20px;
+            border: 3px solid rgb(142, 238, 225);
+            font-size: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        /* class selector */
+        .first {
+            background-color: rgb(255, 142, 142);
+            color: white;
+        }
+
+        /* id selector */
+        #first {
+            background-color: rgb(142, 255, 142);
+            color: black;
+        }
+
+        /* Child selector */
+        .first>p {
+            background-color: rgb(142, 142, 255);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Descendant selector */
+        div p {
+            background-color: rgb(255, 255, 142);
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Universal selector */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Pseudo selector */
+        div:hover {
+            background-color: rgb(255, 200, 200);
+            cursor: pointer;
+        }
+        a:link {
+            color: rgb(0, 175, 131);
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(128, 105, 255);
+        }
+        a:active {
+            color: rgb(255, 133, 133);
+        }
+        a:hover {
+            background-color: rgb(0, 25, 105);
+            text-decoration: underline;
+        }
+        p:first-child{
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="first">
+        I am a div
+        <p>I am a para inside div</p>
+    </div>
+    <div id="first">
+        This is 2nd div
+        <article>
+            <p>This is a paragraph inside article</p>
+            <p>This is another paragraph inside article</p>
+        </article>
+    </div>
+    <a href="http://google.com">Google</a>
+</body>
+
+</html>
