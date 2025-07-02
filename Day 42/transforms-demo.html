@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform Properties Demo</title>
+    <link rel="stylesheet" href="transforms-demo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Transform Properties Demo</h1>
+        
+        <!-- 2D Transforms -->
+        <section class="section">
+            <h2>2D Transforms</h2>
+            <div class="demo-grid">
+                
+                <!-- Translate -->
+                <div class="demo-item">
+                    <h3>Translate</h3>
+                    <div class="box translate">translateX(50px)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Translate XY</h3>
+                    <div class="box translate-xy">translate(30px, 20px)</div>
+                </div>
+                
+                <!-- Rotate -->
+                <div class="demo-item">
+                    <h3>Rotate</h3>
+                    <div class="box rotate">rotate(45deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Rotate Turn</h3>
+                    <div class="box rotate-turn">rotate(0.25turn)</div>
+                </div>
+                
+                <!-- Scale -->
+                <div class="demo-item">
+                    <h3>Scale</h3>
+                    <div class="box scale">scale(1.5)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Scale XY</h3>
+                    <div class="box scale-xy">scale(2, 0.5)</div>
+                </div>
+                
+                <!-- Skew -->
+                <div class="demo-item">
+                    <h3>Skew X</h3>
+                    <div class="box skew-x">skewX(20deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Skew Y</h3>
+                    <div class="box skew-y">skewY(20deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Skew XY</h3>
+                    <div class="box skew-xy">skew(15deg, 10deg)</div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- 3D Transforms -->
+        <section class="section">
+            <h2>3D Transforms</h2>
+            <div class="demo-grid">
+                
+                <div class="demo-item">
+                    <h3>Rotate X</h3>
+                    <div class="box rotate-x">rotateX(45deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Rotate Y</h3>
+                    <div class="box rotate-y">rotateY(45deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Rotate Z</h3>
+                    <div class="box rotate-z">rotateZ(45deg)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Translate Z</h3>
+                    <div class="box translate-z">translateZ(30px)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Translate 3D</h3>
+                    <div class="box translate-3d">translate3d(20px, 20px, 20px)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Scale 3D</h3>
+                    <div class="box scale-3d">scale3d(1.5, 1.5, 1.5)</div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Matrix Transforms -->
+        <section class="section">
+            <h2>Matrix Transforms</h2>
+            <div class="demo-grid">
+                
+                <div class="demo-item">
+                    <h3>Matrix 2D</h3>
+                    <div class="box matrix-2d">matrix(1, 0.5, 0.5, 1, 30, 30)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Matrix 3D</h3>
+                    <div class="box matrix-3d">Complex 3D Matrix</div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Combined Transforms -->
+        <section class="section">
+            <h2>Combined Transforms</h2>
+            <div class="demo-grid">
+                
+                <div class="demo-item">
+                    <h3>Multiple 2D</h3>
+                    <div class="box combined-2d">rotate(30deg) scale(1.2) translate(20px, 10px)</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Multiple 3D</h3>
+                    <div class="box combined-3d">rotateX(30deg) rotateY(45deg) scale(1.3)</div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Transform Origin Examples -->
+        <section class="section">
+            <h2>Transform Origin</h2>
+            <div class="demo-grid">
+                
+                <div class="demo-item">
+                    <h3>Origin Top Left</h3>
+                    <div class="box origin-top-left">rotate(45deg)<br>origin: top left</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Origin Bottom Right</h3>
+                    <div class="box origin-bottom-right">rotate(45deg)<br>origin: bottom right</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Origin Custom</h3>
+                    <div class="box origin-custom">rotate(45deg)<br>origin: 75% 25%</div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Interactive Hover Effects -->
+        <section class="section">
+            <h2>Interactive Hover Effects</h2>
+            <div class="demo-grid">
+                
+                <div class="demo-item">
+                    <h3>Hover to Scale</h3>
+                    <div class="box hover-scale">Hover Me!</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Hover to Rotate</h3>
+                    <div class="box hover-rotate">Hover Me!</div>
+                </div>
+                
+                <div class="demo-item">
+                    <h3>Hover Complex</h3>
+                    <div class="box hover-complex">Hover Me!</div>
+                </div>
+                
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>

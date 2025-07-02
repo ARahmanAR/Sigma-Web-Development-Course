@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6 - Solution</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 164px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .right ul li {
+            list-style: none;
+            font-size: 16px;
+            color: #333;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .right ul li:hover {
+            color: #007bff;
+        }
+
+        .right ul li img {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .right ul li img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Material Icons styling */
+        .material-symbols-outlined {
+            margin-left: 5px;
+            font-size: 16px;
+            transition: transform 0.3s ease, color 0.3s ease;
+            vertical-align: middle;
+        }
+
+        .right ul li:hover .material-symbols-outlined {
+            transform: rotate(180deg);
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products <span class="material-symbols-outlined">keyboard_arrow_down</span></li>
+                    <li>Pricing <span class="material-symbols-outlined">keyboard_arrow_down</span></li>
+                    <li>Resources <span class="material-symbols-outlined">keyboard_arrow_down</span></li>
+                    <li>About Us <span class="material-symbols-outlined">keyboard_arrow_down</span></li>
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/uploads/2022/10/File-Compare.png" alt="search logo">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
